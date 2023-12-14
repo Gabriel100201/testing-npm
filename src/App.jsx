@@ -1,11 +1,11 @@
-import { Header } from "./components/Header"
+import { Header } from "./components/interface/Header";
 
 function App() {
   return (
     <section>
-      <Header></Header>
+      <Header color={"bg-red-500"}></Header>
     </section>
-  )
+  );
 }
 
-export default App
+export default App;
