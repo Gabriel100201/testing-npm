@@ -1,6 +1,6 @@
 {
   "name": "ui-goku",
-  "version": "1.0.12",
+  "version": "1.0.14",
   "type": "module",
   "main": "dist/my-react-tailwind-library.cjs.js",
   "module": "dist/my-react-tailwind-library.es.js",
@@ -15,6 +15,9 @@
     "preview": "vite preview",
     "init": "node ./start/index.js",
     "pato": "node ./pato.js"
+  },
+  "bin": {
+    "ui-goku": "./pato.js"
   },
   "dependencies": {
     "autoprefixer": "^10.4.16",
