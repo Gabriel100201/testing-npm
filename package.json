@@ -1,6 +1,6 @@
 {
   "name": "ui-goku",
-  "version": "1.0.14",
+  "version": "1.0.16",
   "type": "module",
   "main": "dist/my-react-tailwind-library.cjs.js",
   "module": "dist/my-react-tailwind-library.es.js",
@@ -14,6 +14,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "init": "node ./start/index.js",
+    "publish": "npm publish --access public",
+    "prepublish": "npm run build",
     "pato": "node ./pato.js"
   },
   "bin": {
