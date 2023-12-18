@@ -5,7 +5,7 @@ function App() {
   return (
     <section>
       <Header color={"bg-red-500"}></Header>
-      <Button></Button>
+      <Button className="w-56"></Button>
     </section>
   );
 }
