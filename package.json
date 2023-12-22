@@ -1,6 +1,6 @@
 {
   "name": "ui-goku",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "type": "module",
   "main": "dist/my-react-tailwind-library.cjs.js",
   "module": "dist/my-react-tailwind-library.es.js",
@@ -30,6 +30,7 @@
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.3.6",
     "twind": "^0.16.19",
+    "ui-goku": "^1.0.20",
     "vite-plugin-windicss": "^1.9.2"
   },
   "devDependencies": {
