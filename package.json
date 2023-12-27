@@ -1,6 +1,6 @@
 {
   "name": "ui-goku",
-  "version": "1.0.20",
+  "version": "1.0.22",
   "type": "module",
   "main": "dist/my-react-tailwind-library.cjs.js",
   "module": "dist/my-react-tailwind-library.es.js",

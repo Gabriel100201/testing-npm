@@ -34,7 +34,7 @@ const currentDir = dirname(currentFileUrl.replace(/^file:\/\/\//, ''));
 
 const projectName = process.argv[2] || 'my-custom-app';
 const projectPath = join(process.cwd(), projectName);
-const baseFolderPath = join(currentDir, 'base');
+const baseFolderPath = join(currentDir, '../dist/base');
 
 try {
   await copyFolder(baseFolderPath, projectPath);
